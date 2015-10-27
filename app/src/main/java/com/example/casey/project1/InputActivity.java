@@ -37,6 +37,7 @@ public class InputActivity extends Activity implements ConnectionStateCallback {
             @Override
             public void onClick(View v) {
                 getSpotifyLoginDialog();
+                //TODO; make it so
 
             }
         });
