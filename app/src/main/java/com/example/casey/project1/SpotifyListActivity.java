@@ -16,7 +16,7 @@ public class SpotifyListActivity extends AppCompatActivity implements PlayerNoti
 
     @Override
     public void onPlaybackEvent(EventType eventType, PlayerState playerState) {
-        Log.d("InputActivity", "Playback event received: " + eventType.name());
+        Log.d("MainActivity", "Playback event received: " + eventType.name());
         switch (eventType) {
             // Handle event type as necessary
             default:
@@ -26,7 +26,7 @@ public class SpotifyListActivity extends AppCompatActivity implements PlayerNoti
 
     @Override
     public void onPlaybackError(ErrorType errorType, String errorDetails) {
-        Log.d("InputActivity", "Playback error received: " + errorType.name());
+        Log.d("MainActivity", "Playback error received: " + errorType.name());
         switch (errorType) {
             // Handle error type as necessary
             default:
